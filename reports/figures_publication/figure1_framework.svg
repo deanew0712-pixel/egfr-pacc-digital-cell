@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="452.221875pt" height="247.248pt" viewBox="0 0 452.221875 247.248" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-18T12:24:21.650016</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 247.248 
+L 452.221875 247.248 
+L 452.221875 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.899577 80.54712 
+L 122.055097 80.54712 
+Q 125.269177 80.54712 125.269177 77.44248 
+L 125.269177 45.61992 
+Q 125.269177 42.51528 122.055097 42.51528 
+L 40.899577 42.51528 
+Q 37.685497 42.51528 37.685497 45.61992 
+L 37.685497 77.44248 
+Q 37.685497 80.54712 40.899577 80.54712 
+z
+" clip-path="url(#p00b5e8897a)" style="fill: #eaf3fb; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 40.899577 154.28232 
+L 122.055097 154.28232 
+Q 125.269177 154.28232 125.269177 151.17768 
+L 125.269177 119.35512 
+Q 125.269177 116.25048 122.055097 116.25048 
+L 40.899577 116.25048 
+Q 37.685497 116.25048 37.685497 119.35512 
+L 37.685497 151.17768 
+Q 37.685497 154.28232 40.899577 154.28232 
+z
+" clip-path="url(#p00b5e8897a)" style="fill: #edf8e9; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 151.383578 80.54712 
+L 232.539097 80.54712 
+Q 235.753177 80.54712 235.753177 77.44248 
+L 235.753177 45.61992 
+Q 235.753177 42.51528 232.539097 42.51528 
+L 151.383578 42.51528 
+Q 148.169497 42.51528 148.169497 45.61992 
+L 148.169497 77.44248 
+Q 148.169497 80.54712 151.383578 80.54712 
+z
+" clip-path="url(#p00b5e8897a)" style="fill: #fff4e6; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 151.383578 154.28232 
+L 232.539097 154.28232 
+Q 235.753177 154.28232 235.753177 151.17768 
+L 235.753177 119.35512 
+Q 235.753177 116.25048 232.539097 116.25048 
+L 151.383578 116.25048 
+Q 148.169497 116.25048 148.169497 119.35512 
+L 148.169497 151.17768 
+Q 148.169497 154.28232 151.383578 154.28232 
+z
+" clip-path="url(#p00b5e8897a)" style="fill: #e8f4f2; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 261.867577 117.41472 
+L 339.005497 117.41472 
+Q 342.219577 117.41472 342.219577 114.31008 
+L 342.219577 78.60672 
+Q 342.219577 75.50208 339.005497 75.50208 
+L 261.867577 75.50208 
+Q 258.653497 75.50208 258.653497 78.60672 
+L 258.653497 114.31008 
+Q 258.653497 117.41472 261.867577 117.41472 
+z
+" clip-path="url(#p00b5e8897a)" style="fill: #fce8e8; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 362.307578 117.41472 
+L 413.331097 117.41472 
+Q 416.545178 117.41472 416.545178 114.31008 
+L 416.545178 78.60672 
+Q 416.545178 75.50208 413.331097 75.50208 
+L 362.307578 75.50208 
+Q 359.093498 75.50208 359.093498 78.60672 
+L 359.093498 114.31008 
+Q 359.093498 117.41472 362.307578 117.41472 
+z
+" clip-path="url(#p00b5e8897a)" style="fill: #f4f4f4; stroke: #333333; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(48.092337 54.78045)">Locked evidence</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(46.021712 63.7387)">34 literature rows</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(37.683587 72.69695)">Open reference priors</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(52.502962 128.51565)">Mutation layer</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(44.946087 137.4739)">Robichaux classes</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(42.935462 146.43215)">compound resolver</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(162.448838 54.78045)">Bayesian layer</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(140.925713 63.7387)">class-level partial pooling</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(156.556962 72.69695)">locked priors only</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(157.563213 128.51565)">Clinical modifiers</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(167.173213 137.4739)">CNS disease</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(152.271338 146.43215)">bypass/co-mutation</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(270.781538 85.228525)">EPDRI collapse</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(276.232162 94.186775)">pooled prior</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(265.526537 103.145025)">modifier discount</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(273.839037 112.103275)">evidence cap</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(373.924962 85.228525)">Output</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(372.686838 94.186775)">ranking</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(364.843088 103.145025)">uncertainty</text>
+    <text style="fill: #222222; font: 8px 'DejaVu Sans'" transform="translate(375.604338 112.103275)">report</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 126.661851 61.5312 
+Q 136.719505 61.5312 145.547321 61.5312 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 142.347321 59.9312 
+L 145.547321 61.5312 
+L 142.347321 63.1312 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 126.661851 135.2664 
+Q 136.719505 135.2664 145.547321 135.2664 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 142.347321 133.6664 
+L 145.547321 135.2664 
+L 142.347321 136.8664 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 236.227766 63.696622 
+Q 247.20416 75.114855 257.32825 85.646477 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 256.264051 82.230708 
+L 257.32825 85.646477 
+L 253.957115 84.448374 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 236.151259 133.031577 
+Q 247.203798 120.712887 257.435027 109.309594 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 254.107087 110.622917 
+L 257.435027 109.309594 
+L 256.488921 112.75994 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 343.609063 96.4584 
+Q 350.654706 96.4584 356.470512 96.4584 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 353.270512 94.8584 
+L 356.470512 96.4584 
+L 353.270512 98.0584 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 81.477337 81.993514 
+Q 81.477337 98.396632 81.477337 113.569913 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 83.077337 110.369913 
+L 81.477337 113.569913 
+L 79.877337 110.369913 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 191.961338 81.993514 
+Q 191.961338 98.396632 191.961338 113.569913 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 193.561338 110.369913 
+L 191.961338 113.569913 
+L 190.361338 110.369913 
+" style="fill: none; stroke: #333333; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="226.110937" y="27.655944" transform="rotate(-0 226.110937 27.655944)">EGFR-PACC digital-cell framework</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #444444; font: 7.5px 'DejaVu Sans'; text-anchor: middle" x="226.110937" y="216.892331" transform="rotate(-0 226.110937 216.892331)">Local outcomes are held out from prior construction; back-testing evaluates locked literature rows by leave-one-out.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p00b5e8897a">
+   <rect x="25.230937" y="7.2" width="401.76" height="232.848"/>
+  </clipPath>
+ </defs>
+</svg>

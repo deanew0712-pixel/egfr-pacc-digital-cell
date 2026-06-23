@@ -1,0 +1,13 @@
+analysis_set,subgroup_variable,subgroup,n,median_actual_model_score,median_pfs1_months,top1_coverage,top3_coverage
+model_native_monotherapy,primary_class,classical_like,8,0.679,19.6,0.0,0.0
+model_native_monotherapy,primary_class,pacc,16,0.666,8.75,0.4375,0.8125
+model_native_monotherapy,compound_conflict_flag,False,23,0.679,15.7,0.2608695652173913,0.5217391304347826
+model_native_monotherapy,compound_conflict_flag,True,1,0.639,6.5,1.0,1.0
+model_native_monotherapy,analysis_group,model_native_monotherapy,24,0.679,15.7,0.2916666666666667,0.5416666666666666
+proxy_sensitivity_including_icotinib,primary_class,classical_like,8,0.679,19.6,0.0,0.0
+proxy_sensitivity_including_icotinib,primary_class,pacc,21,0.666,8.7,0.38095238095238093,0.6666666666666666
+proxy_sensitivity_including_icotinib,compound_conflict_flag,False,28,0.679,12.6,0.25,0.4642857142857143
+proxy_sensitivity_including_icotinib,compound_conflict_flag,True,1,0.639,6.5,1.0,1.0
+proxy_sensitivity_including_icotinib,analysis_group,model_native_combination,1,0.749,13.6,1.0,1.0
+proxy_sensitivity_including_icotinib,analysis_group,model_native_monotherapy,24,0.679,15.7,0.2916666666666667,0.5416666666666666
+proxy_sensitivity_including_icotinib,analysis_group,proxy,4,0.456,5.949999999999999,0.0,0.0

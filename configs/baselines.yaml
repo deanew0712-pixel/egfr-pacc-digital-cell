@@ -1,0 +1,30 @@
+baseline_0:
+  description: Frozen Robichaux-style class rule.
+  recommendations:
+    pacc:
+      - afatinib
+      - dacomitinib
+    classical_like:
+      - osimertinib
+      - afatinib
+      - erlotinib
+      - gefitinib
+    t790m_like:
+      - osimertinib
+      - furmonertinib
+    ex20ins:
+      - amivantamab
+    unknown:
+      - specialist_review
+
+baseline_1:
+  description: Baseline-0 plus evidence-level awareness.
+  rule: Keep baseline_0 recommendation but downgrade to specialist_review when evidence is unknown or conflict flag is high.
+  optional_enhanced_sources:
+    oncokb:
+      status: available
+      summary_table: data/processed/reference/oncokb_egfr_actionability.csv
+      treatment_evidence_table: data/processed/reference/oncokb_egfr_treatment_evidence.csv
+      drug_level_matrix: data/processed/reference/oncokb_egfr_drug_level_matrix.csv
+      report: reports/oncokb_baseline_reference_report.md
+      usage_note: Use as Baseline-1 actionability/evidence-level awareness only; do not refit priors after clinical outcomes are opened.

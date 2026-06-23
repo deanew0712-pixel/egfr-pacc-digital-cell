@@ -1,0 +1,70 @@
+classes:
+  pacc:
+    robichaux_fig5_class: PACC
+    description: P-loop and alphaC-helix compressing uncommon EGFR mutations.
+    variants:
+      - G719A
+      - G719C
+      - G719D
+      - G719S
+      - G719X
+      - E709A
+      - E709G
+      - E709H
+      - E709K
+      - E709V
+      - E709X
+      - S768I
+      - L747P
+  classical_like:
+    robichaux_fig5_class: classical_like
+    description: Mutations structurally closer to classical EGFR sensitizing alterations.
+    variants:
+      - L858R
+      - L861Q
+      - exon19del
+      - del19
+  t790m_like:
+    robichaux_fig5_class: T790M_like
+    description: Gatekeeper/acquired resistance-like alterations.
+    variants:
+      - T790M
+      - C797S
+      - L718Q
+  ex20ins:
+    robichaux_fig5_class: exon20ins
+    description: EGFR exon 20 insertion-like group.
+    variants:
+      - exon20ins
+      - ex20ins
+      - A763_Y764insFQEA
+
+compound_rules:
+  priority_order:
+    - ex20ins
+    - t790m_like
+    - pacc
+    - classical_like
+    - unknown
+  pacc_plus_classical_like:
+    primary_class: pacc
+    recommendation: preserve_both_classes_with_pacc_bias
+    uncertainty_delta: 1
+    rationale: Compound PACC plus classical-like variants should not be collapsed to one class; second-generation TKI prior remains relevant but uncertainty increases.
+  pacc_plus_t790m_like:
+    primary_class: t790m_like
+    recommendation: acquired_resistance_context_required
+    uncertainty_delta: 2
+    rationale: T790M/C797S changes drug generation logic; treatment line and acquired-resistance context must be reviewed.
+  any_plus_ex20ins:
+    primary_class: ex20ins
+    recommendation: ex20ins_specialist_review
+    uncertainty_delta: 2
+    rationale: Exon 20 insertion biology and approved drug options differ from PACC/classical-like groups.
+
+unknown_variant:
+  robichaux_class: unknown
+  uncertainty_delta: 2
+  recommendation: literature_review_required
+
+source_note: Rules are encoded from the project Robichaux 2021 Figure 5 four-class working scheme and project-specific compound handling. Review before final manuscript freeze.

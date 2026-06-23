@@ -1,0 +1,9 @@
+rdkit>=2026.3
+biopython>=1.87
+meeko>=0.7
+scipy>=1.18
+gemmi>=0.7
+openmm>=8.5
+pdbfixer>=1.12
+matplotlib>=3.8
+openbabel-wheel>=3.1.1

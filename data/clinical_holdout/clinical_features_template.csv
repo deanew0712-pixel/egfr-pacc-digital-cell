@@ -1,0 +1,3 @@
+patient_id,egfr_variants,brain_metastasis,leptomeningeal_metastasis,treatment_line,tp53_mut,rb1_loss,met_amplification,pik3ca_mut,drug_received
+P001,"G719S;L861Q",true,false,1,true,false,false,false,afatinib
+

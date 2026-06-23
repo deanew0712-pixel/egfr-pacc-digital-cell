@@ -1,0 +1,25 @@
+analysis_set,metric,estimate,ci95_lower,ci95_upper,definition
+model_native_monotherapy,n_evaluable,24.0,,,Patients with mappable first-line exposure and PFS1.
+model_native_monotherapy,spearman_score_vs_pfs1,0.2877182325581308,-0.18398650897405636,0.6866325523310298,Spearman correlation between frozen EPDRI score for administered/proxy drug and PFS1 months.
+model_native_monotherapy,pairwise_c_index,0.5945454545454546,0.4263565891472868,0.7518796992481203,Pairwise concordance of higher EPDRI score with longer PFS1; censoring not modeled.
+model_native_monotherapy,median_pfs1_months,15.7,,,Median observed PFS1 in analysis set.
+model_native_monotherapy,top1_coverage,0.2916666666666667,,,Fraction where administered/proxy drug is ranked first by frozen model.
+model_native_monotherapy,top2_coverage,0.5,,,Fraction where administered/proxy drug is ranked in top 2.
+model_native_monotherapy,top3_coverage,0.5416666666666666,,,Fraction where administered/proxy drug is ranked in top 3.
+model_native_monotherapy,median_pfs_high_minus_low_score,8.750000000000004,,,Median PFS1 difference using within-set median EPDRI score split.
+model_native_plus_combo,n_evaluable,25.0,,,Patients with mappable first-line exposure and PFS1.
+model_native_plus_combo,spearman_score_vs_pfs1,0.2676073927751076,-0.20836922940938093,0.6542256126689046,Spearman correlation between frozen EPDRI score for administered/proxy drug and PFS1 months.
+model_native_plus_combo,pairwise_c_index,0.5836120401337793,0.42077464788732394,0.735191637630662,Pairwise concordance of higher EPDRI score with longer PFS1; censoring not modeled.
+model_native_plus_combo,median_pfs1_months,15.7,,,Median observed PFS1 in analysis set.
+model_native_plus_combo,top1_coverage,0.32,,,Fraction where administered/proxy drug is ranked first by frozen model.
+model_native_plus_combo,top2_coverage,0.52,,,Fraction where administered/proxy drug is ranked in top 2.
+model_native_plus_combo,top3_coverage,0.56,,,Fraction where administered/proxy drug is ranked in top 3.
+model_native_plus_combo,median_pfs_high_minus_low_score,8.600000000000001,,,Median PFS1 difference using within-set median EPDRI score split.
+proxy_sensitivity_including_icotinib,n_evaluable,29.0,,,Patients with mappable first-line exposure and PFS1.
+proxy_sensitivity_including_icotinib,spearman_score_vs_pfs1,0.39614361571403145,-0.0005048553980595689,0.7112283272037574,Spearman correlation between frozen EPDRI score for administered/proxy drug and PFS1 months.
+proxy_sensitivity_including_icotinib,pairwise_c_index,0.6333333333333333,0.49743589743589745,0.7570332480818415,Pairwise concordance of higher EPDRI score with longer PFS1; censoring not modeled.
+proxy_sensitivity_including_icotinib,median_pfs1_months,11.6,,,Median observed PFS1 in analysis set.
+proxy_sensitivity_including_icotinib,top1_coverage,0.27586206896551724,,,Fraction where administered/proxy drug is ranked first by frozen model.
+proxy_sensitivity_including_icotinib,top2_coverage,0.4482758620689655,,,Fraction where administered/proxy drug is ranked in top 2.
+proxy_sensitivity_including_icotinib,top3_coverage,0.4827586206896552,,,Fraction where administered/proxy drug is ranked in top 3.
+proxy_sensitivity_including_icotinib,median_pfs_high_minus_low_score,9.450000000000001,,,Median PFS1 difference using within-set median EPDRI score split.

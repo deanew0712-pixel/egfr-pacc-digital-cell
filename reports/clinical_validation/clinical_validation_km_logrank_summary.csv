@@ -1,0 +1,3 @@
+analysis_set,split_variable,median_score_cutpoint,n_high,n_low,events_high,events_low,median_pfs_high,median_pfs_low,logrank_chi2,logrank_p_value
+model_native_monotherapy,administered_drug_epdri_median,0.679,14,10,10,8,16.950000000000003,8.2,1.5942290227947729,0.20672296352266062
+proxy_sensitivity_including_icotinib,administered_drug_epdri_median,0.679,15,14,11,12,16.8,7.35,3.542580940726299,0.05981232339576183

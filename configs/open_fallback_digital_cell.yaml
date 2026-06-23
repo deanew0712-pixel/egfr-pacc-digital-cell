@@ -1,0 +1,677 @@
+metadata:
+  generated_at: '2026-06-18T02:58:39+00:00'
+  status: preliminary_open_fallback_digital_cell
+  clinical_use: not_for_clinical_decision
+  optional_enhanced_dependencies:
+  - COSMIC
+  - GENIE
+  - DrugBank
+  - OncoKB
+  required_before_outcome_review:
+  - manual_literature_orr_pfs_lock_table
+mutation_catalog:
+  C797S:
+    sources:
+    - CIViC
+    - Cancer Hotspots
+    - ClinVar
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 0.0
+      CIViC: 7.0
+      ClinVar: 2.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 4
+  E709X:
+    sources:
+    - CIViC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 5.0
+      TCGA/GDC: 2.0
+      CIViC: 4.0
+      ClinVar: 7.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 5
+  G719X:
+    sources:
+    - CIViC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 4.0
+      TCGA/GDC: 3.0
+      CIViC: 20.0
+      ClinVar: 4.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 5
+  L718Q:
+    sources:
+    - CIViC
+    - Cancer Hotspots
+    - ClinVar
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 0.0
+      CIViC: 4.0
+      ClinVar: 0.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 4
+  L861Q:
+    sources:
+    - CIViC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 10.0
+      TCGA/GDC: 7.0
+      CIViC: 7.0
+      ClinVar: 1.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 6
+  S768I:
+    sources:
+    - CIViC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 4.0
+      TCGA/GDC: 7.0
+      CIViC: 10.0
+      ClinVar: 2.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 5
+  compound_EGFR:
+    sources:
+    - Cancer Hotspots
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 26.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 2
+  ex20ins:
+    sources:
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 0.0
+      TCGA/GDC: 1.0
+      ClinVar: 0.0
+      Cancer Hotspots: 1.0
+    evidence_rows: 4
+enhanced_mutation_catalog:
+  C797S:
+    sources:
+    - CIViC
+    - COSMIC
+    - Cancer Hotspots
+    - ClinVar
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 0.0
+      CIViC: 7.0
+      ClinVar: 2.0
+      Cancer Hotspots: 1.0
+      COSMIC: 88.0
+    evidence_rows: 8
+  E709X:
+    sources:
+    - CIViC
+    - COSMIC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 5.0
+      TCGA/GDC: 2.0
+      CIViC: 4.0
+      ClinVar: 7.0
+      Cancer Hotspots: 1.0
+      COSMIC: 187.0
+    evidence_rows: 7
+  G719X:
+    sources:
+    - CIViC
+    - COSMIC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 4.0
+      TCGA/GDC: 3.0
+      CIViC: 20.0
+      ClinVar: 4.0
+      Cancer Hotspots: 1.0
+      COSMIC: 791.0
+    evidence_rows: 7
+  L718Q:
+    sources:
+    - CIViC
+    - COSMIC
+    - Cancer Hotspots
+    - ClinVar
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 0.0
+      CIViC: 4.0
+      ClinVar: 0.0
+      Cancer Hotspots: 1.0
+      COSMIC: 20.0
+    evidence_rows: 6
+  L861Q:
+    sources:
+    - CIViC
+    - COSMIC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 10.0
+      TCGA/GDC: 7.0
+      CIViC: 7.0
+      ClinVar: 1.0
+      Cancer Hotspots: 1.0
+      COSMIC: 436.0
+    evidence_rows: 8
+  S768I:
+    sources:
+    - CIViC
+    - COSMIC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 4.0
+      TCGA/GDC: 7.0
+      CIViC: 10.0
+      ClinVar: 2.0
+      Cancer Hotspots: 1.0
+      COSMIC: 288.0
+    evidence_rows: 7
+  compound_EGFR:
+    sources:
+    - COSMIC
+    - Cancer Hotspots
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 26.0
+      Cancer Hotspots: 1.0
+      COSMIC: 0.0
+    evidence_rows: 4
+  ex20ins:
+    sources:
+    - COSMIC
+    - Cancer Hotspots
+    - ClinVar
+    - TCGA/GDC
+    - cBioPortal
+    source_record_counts:
+      cBioPortal: 0.0
+      TCGA/GDC: 1.0
+      ClinVar: 0.0
+      Cancer Hotspots: 1.0
+      COSMIC: 521.0
+    evidence_rows: 6
+frequency_priors:
+  TCGA-LUAD:
+    EGFR PACC frequency:
+      frequency: 0.016234
+      sample_count: 616
+      mutation_count: 10
+      source: TCGA/GDC
+      ancestry_race_available: false
+    compound EGFR frequency:
+      frequency: 0.186813
+      sample_count: 91
+      mutation_count: 17
+      source: TCGA/GDC
+      ancestry_race_available: false
+    EGFR+TP53 frequency:
+      frequency: 0.637363
+      sample_count: 91
+      mutation_count: 58
+      source: TCGA/GDC
+      ancestry_race_available: false
+    EGFR+RB1 frequency:
+      frequency: 0.065934
+      sample_count: 91
+      mutation_count: 6
+      source: TCGA/GDC
+      ancestry_race_available: false
+  TCGA-LUSC:
+    EGFR PACC frequency:
+      frequency: 0.0
+      sample_count: 544
+      mutation_count: 0
+      source: TCGA/GDC
+      ancestry_race_available: false
+    compound EGFR frequency:
+      frequency: 0.0625
+      sample_count: 16
+      mutation_count: 1
+      source: TCGA/GDC
+      ancestry_race_available: false
+    EGFR+TP53 frequency:
+      frequency: 0.875
+      sample_count: 16
+      mutation_count: 14
+      source: TCGA/GDC
+      ancestry_race_available: false
+    EGFR+RB1 frequency:
+      frequency: 0.0625
+      sample_count: 16
+      mutation_count: 1
+      source: TCGA/GDC
+      ancestry_race_available: false
+  luad_tcga_pan_can_atlas_2018:
+    EGFR PACC frequency:
+      frequency: 0.092308
+      sample_count: 65
+      mutation_count: 6
+      source: cBioPortal
+      ancestry_race_available: false
+    compound EGFR frequency:
+      frequency: 0.2
+      sample_count: 65
+      mutation_count: 13
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+TP53 frequency:
+      frequency: 0.661538
+      sample_count: 65
+      mutation_count: 43
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+RB1 frequency:
+      frequency: 0.107692
+      sample_count: 65
+      mutation_count: 7
+      source: cBioPortal
+      ancestry_race_available: false
+  luad_tcga_pub:
+    EGFR PACC frequency:
+      frequency: 0.121212
+      sample_count: 33
+      mutation_count: 4
+      source: cBioPortal
+      ancestry_race_available: false
+    compound EGFR frequency:
+      frequency: 0.30303
+      sample_count: 33
+      mutation_count: 10
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+TP53 frequency:
+      frequency: 0.606061
+      sample_count: 33
+      mutation_count: 20
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+RB1 frequency:
+      frequency: 0.090909
+      sample_count: 33
+      mutation_count: 3
+      source: cBioPortal
+      ancestry_race_available: false
+  lusc_tcga_pan_can_atlas_2018:
+    EGFR PACC frequency:
+      frequency: 0.0
+      sample_count: 14
+      mutation_count: 0
+      source: cBioPortal
+      ancestry_race_available: false
+    compound EGFR frequency:
+      frequency: 0.071429
+      sample_count: 14
+      mutation_count: 1
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+TP53 frequency:
+      frequency: 0.928571
+      sample_count: 14
+      mutation_count: 13
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+RB1 frequency:
+      frequency: 0.071429
+      sample_count: 14
+      mutation_count: 1
+      source: cBioPortal
+      ancestry_race_available: false
+  lusc_tcga_pub:
+    EGFR PACC frequency:
+      frequency: 0.0
+      sample_count: 7
+      mutation_count: 0
+      source: cBioPortal
+      ancestry_race_available: false
+    compound EGFR frequency:
+      frequency: 0.285714
+      sample_count: 7
+      mutation_count: 2
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+TP53 frequency:
+      frequency: 0.857143
+      sample_count: 7
+      mutation_count: 6
+      source: cBioPortal
+      ancestry_race_available: false
+    EGFR+RB1 frequency:
+      frequency: 0.142857
+      sample_count: 7
+      mutation_count: 1
+      source: cBioPortal
+      ancestry_race_available: false
+cns_modifier_table:
+  gefitinib:
+    cns_activity: low
+    cns_modifier_score: -0.04
+    pubchem_cid: '123631'
+    chembl_id: ''
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_transporter
+    fda_label_effective_time: '20230222'
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:123631;1a3c0ce7-06a1-4e04-9106-14ddb2a866a5;openFDA
+      drug label;FDA label effective_time:20230222
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; DailyMed public SPL labeling from NLM.; openFDA
+      public API; data are unvalidated and subject to openFDA terms.
+  erlotinib:
+    cns_activity: low_to_moderate
+    cns_modifier_score: -0.02
+    pubchem_cid: '176870'
+    chembl_id: ''
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_only
+    fda_label_effective_time: '20191025'
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:176870;daaa1329-3a3f-439c-b13d-b301daa234d4;openFDA
+      drug label;FDA label effective_time:20191025
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; DailyMed public SPL labeling from NLM.; openFDA
+      public API; data are unvalidated and subject to openFDA terms.
+  afatinib:
+    cns_activity: moderate
+    cns_modifier_score: 0.0
+    pubchem_cid: '10184653'
+    chembl_id: CHEMBL2105712
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_transporter
+    fda_label_effective_time: '20251113'
+    source: manual_literature_seed;PubChem;ChEMBL;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:10184653;CHEMBL2105712;fd638e5e-8032-e7ca-0179-95e96ab5d387;openFDA
+      drug label;FDA label effective_time:20251113
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; ChEMBL public data under EMBL-EBI terms.; DailyMed
+      public SPL labeling from NLM.; openFDA public API; data are unvalidated and
+      subject to openFDA terms.
+  dacomitinib:
+    cns_activity: low_to_moderate
+    cns_modifier_score: -0.02
+    pubchem_cid: '11511120'
+    chembl_id: CHEMBL2105719
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_label_cns_nonclinical_or_context
+    fda_label_effective_time: '20251218'
+    source: manual_literature_seed;PubChem;ChEMBL;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:11511120;CHEMBL2105719;4ab27d2f-e385-4e9c-b324-fa69c10b855a;openFDA
+      drug label;FDA label effective_time:20251218
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; ChEMBL public data under EMBL-EBI terms.; DailyMed
+      public SPL labeling from NLM.; openFDA public API; data are unvalidated and
+      subject to openFDA terms.
+  osimertinib:
+    cns_activity: high
+    cns_modifier_score: 0.1
+    pubchem_cid: '71496458'
+    chembl_id: CHEMBL3545063
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_clinical_cns
+    fda_label_effective_time: '20240925'
+    source: manual_literature_seed;PubChem;ChEMBL;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:71496458;CHEMBL3545063;5e81b4a7-b971-45e1-9c31-29cea8c87ce7;openFDA
+      drug label;FDA label effective_time:20240925
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; ChEMBL public data under EMBL-EBI terms.; DailyMed
+      public SPL labeling from NLM.; openFDA public API; data are unvalidated and
+      subject to openFDA terms.
+  lazertinib:
+    cns_activity: high
+    cns_modifier_score: 0.08
+    pubchem_cid: '121269225'
+    chembl_id: ''
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_clinical_cns
+    fda_label_effective_time: '20260505'
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:121269225;c417f9ee-2027-4ed5-92ad-3c19266de16c;openFDA
+      drug label;FDA label effective_time:20260505
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; DailyMed public SPL labeling from NLM.; openFDA
+      public API; data are unvalidated and subject to openFDA terms.
+  furmonertinib:
+    cns_activity: high
+    cns_modifier_score: 0.1
+    pubchem_cid: '118861389'
+    chembl_id: CHEMBL6068476
+    openfda_label_found: false
+    fda_label_evidence_strength: label_missing
+    fda_label_effective_time: ''
+    source: manual_literature_seed;PubChem;ChEMBL;FDA_label_CNS_evidence
+    source_url_or_id: 'manual_literature_curation_pending;PubChem CID:118861389;CHEMBL6068476;FDA
+      label effective_time:'
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; ChEMBL public data under EMBL-EBI terms.; openFDA
+      public API; data are unvalidated and subject to openFDA terms.
+  aumolertinib:
+    cns_activity: high
+    cns_modifier_score: 0.08
+    pubchem_cid: '121280087'
+    chembl_id: ''
+    openfda_label_found: false
+    fda_label_evidence_strength: label_missing
+    fda_label_effective_time: ''
+    source: manual_literature_seed;PubChem;FDA_label_CNS_evidence
+    source_url_or_id: 'manual_literature_curation_pending;PubChem CID:121280087;FDA
+      label effective_time:'
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; openFDA public API; data are unvalidated and
+      subject to openFDA terms.
+  mobocertinib:
+    cns_activity: low
+    cns_modifier_score: -0.06
+    pubchem_cid: '118607832'
+    chembl_id: ''
+    openfda_label_found: false
+    fda_label_evidence_strength: label_missing
+    fda_label_effective_time: ''
+    source: manual_literature_seed;PubChem;FDA_label_CNS_evidence
+    source_url_or_id: 'manual_literature_curation_pending;PubChem CID:118607832;FDA
+      label effective_time:'
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; openFDA public API; data are unvalidated and
+      subject to openFDA terms.
+  amivantamab:
+    cns_activity: low
+    cns_modifier_score: -0.08
+    pubchem_cid: ''
+    chembl_id: ''
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_clinical_cns
+    fda_label_effective_time: '20251111'
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:;1466c070-9f97-4fa4-a955-6a6b59981fb8;openFDA
+      drug label;FDA label effective_time:20251111
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; DailyMed public SPL labeling from NLM.; openFDA
+      public API; data are unvalidated and subject to openFDA terms.
+  patritumab deruxtecan:
+    cns_activity: low
+    cns_modifier_score: -0.08
+    pubchem_cid: ''
+    chembl_id: ''
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_only
+    fda_label_effective_time: '20260521'
+    source: manual_literature_seed;PubChem;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:;openFDA drug
+      label;FDA label effective_time:20260521
+    license_note: Manual literature curation seed; must be reviewed before prior freeze.;
+      PubChem public data from NCBI.; openFDA public API; data are unvalidated and
+      subject to openFDA terms.
+source_priority:
+  all:
+  - field: enhanced_catalog/frequency/drug
+    priority_rank: 99
+    source: COSMIC/GENIE/DrugBank
+    dependency_status: optional_enhanced
+    source_url_or_id: data/raw/cosmic|genie|drugbank
+  egfr_enhanced_mutation_catalog.csv:
+  - field: mutation/catalog
+    priority_rank: 1
+    source: egfr_open_mutation_catalog.csv
+    dependency_status: required_open_baseline
+    source_url_or_id: data/processed/reference/egfr_open_mutation_catalog.csv
+  - field: mutation/catalog
+    priority_rank: 2
+    source: COSMIC MutantCensus
+    dependency_status: optional_enhanced
+    source_url_or_id: data/raw/cosmic/Cosmic_MutantCensus_v104_GRCh37.tsv.gz
+  - field: drug_resistance
+    priority_rank: 3
+    source: COSMIC ResistanceMutations
+    dependency_status: optional_enhanced
+    source_url_or_id: data/raw/cosmic/Cosmic_ResistanceMutations_v104_GRCh37.tsv.gz
+  egfr_open_mutation_catalog.csv:
+  - field: mutation/catalog
+    priority_rank: 1
+    source: cBioPortal
+    dependency_status: required_open
+    source_url_or_id: public API/downloaded processed flags
+  - field: mutation/catalog
+    priority_rank: 2
+    source: TCGA/GDC
+    dependency_status: required_open
+    source_url_or_id: data/raw/gdc/maf_files
+  - field: mutation/catalog
+    priority_rank: 3
+    source: CIViC
+    dependency_status: required_open
+    source_url_or_id: data/processed/civic_egfr_evidence.csv
+  - field: mutation/catalog
+    priority_rank: 4
+    source: ClinVar
+    dependency_status: required_open
+    source_url_or_id: NCBI E-utilities
+  - field: mutation/catalog
+    priority_rank: 5
+    source: Cancer Hotspots
+    dependency_status: required_open
+    source_url_or_id: https://www.cancerhotspots.org/files/hotspots_v2.xls
+  - field: mutation/catalog
+    priority_rank: 6
+    source: OncoKB
+    dependency_status: optional_enhanced
+    source_url_or_id: ONCOKB_TOKEN
+  egfr_tki_cns_modifier_table.csv:
+  - field: drug_identity/chemistry
+    priority_rank: 1
+    source: ChEMBL
+    dependency_status: required_open
+    source_url_or_id: data/processed/chembl_ligands.csv
+  - field: drug_identity/chemistry
+    priority_rank: 2
+    source: PubChem
+    dependency_status: required_open
+    source_url_or_id: PUG REST
+  - field: label
+    priority_rank: 3
+    source: DailyMed
+    dependency_status: required_open
+    source_url_or_id: DailyMed API
+  - field: label
+    priority_rank: 4
+    source: openFDA
+    dependency_status: required_open
+    source_url_or_id: openFDA drug label
+  - field: adverse_events
+    priority_rank: 5
+    source: SIDER
+    dependency_status: optional_open
+    source_url_or_id: manual import
+  - field: cns_pk_label_evidence
+    priority_rank: 5
+    source: FDA_label_CNS_evidence
+    dependency_status: required_open
+    source_url_or_id: data/processed/reference/fda_label_cns_evidence.csv
+  - field: pharmacology
+    priority_rank: 6
+    source: IUPHAR
+    dependency_status: optional_open
+    source_url_or_id: manual/API import
+  - field: pharmacogenomics
+    priority_rank: 7
+    source: PharmGKB
+    dependency_status: optional_enhanced
+    source_url_or_id: manual import
+  - field: cns_modifier_score
+    priority_rank: 8
+    source: manual_literature_seed
+    dependency_status: required_manual_before_freeze
+    source_url_or_id: manual_literature_curation_pending
+  emerging_pacc_tki_evidence.csv:
+  - field: orr/dcr/cns_orr
+    priority_rank: 1
+    source: FURTHER/FURMO-002 WCLC 2024 oral presentation
+    dependency_status: optional_emerging_enhanced
+    source_url_or_id: local:data/raw/emerging_pacc_tki/furmonertinib_further_pacc_recent_cn.pdf;
+      NCT05364073
+  furmonertinib_preclinical_pacc_evidence.csv:
+  - field: ic50/brain_pk/in_vivo_tgi
+    priority_rank: 1
+    source: IASLC preclinical poster
+    dependency_status: optional_mechanistic_enhanced
+    source_url_or_id: local:data/raw/emerging_pacc_tki/furmonertinib_preclinical_pacc_iaslc_poster.pdf
+  open_egfr_pacc_frequency.csv:
+  - field: frequency
+    priority_rank: 1
+    source: TCGA/GDC
+    dependency_status: required_open
+    source_url_or_id: data/raw/gdc/maf_files
+  - field: frequency
+    priority_rank: 2
+    source: cBioPortal
+    dependency_status: required_open
+    source_url_or_id: data/processed/cbioportal_egfr_sample_flags.csv
+  - field: frequency
+    priority_rank: 3
+    source: MSK-IMPACT published cohorts
+    dependency_status: optional_open
+    source_url_or_id: cBioPortal datahub if available
+  - field: frequency
+    priority_rank: 4
+    source: TRACERx processed data
+    dependency_status: optional_open
+    source_url_or_id: study download if available
+  - field: frequency
+    priority_rank: 5
+    source: NGDC/CNGBdb
+    dependency_status: optional_enhanced
+    source_url_or_id: China/Asia cohorts if available

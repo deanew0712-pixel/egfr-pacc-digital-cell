@@ -1,0 +1,174 @@
+drugs:
+  gefitinib:
+    generation: first
+    covalent: false
+    cns_activity: low
+    cns_modifier_score: -0.04
+    pubchem_cid: '123631'
+    chembl_id: null
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_transporter
+    fda_label_effective_time: '20230222'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:123631;1a3c0ce7-06a1-4e04-9106-14ddb2a866a5;openFDA
+      drug label;FDA label effective_time:20230222
+  erlotinib:
+    generation: first
+    covalent: false
+    cns_activity: low_to_moderate
+    cns_modifier_score: -0.02
+    pubchem_cid: '176870'
+    chembl_id: null
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_only
+    fda_label_effective_time: '20191025'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:176870;daaa1329-3a3f-439c-b13d-b301daa234d4;openFDA
+      drug label;FDA label effective_time:20191025
+  afatinib:
+    generation: second
+    covalent: true
+    cns_activity: moderate
+    cns_modifier_score: 0.0
+    pubchem_cid: '10184653'
+    chembl_id: CHEMBL2105712
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_transporter
+    fda_label_effective_time: '20251113'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;ChEMBL;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:10184653;CHEMBL2105712;fd638e5e-8032-e7ca-0179-95e96ab5d387;openFDA
+      drug label;FDA label effective_time:20251113
+  dacomitinib:
+    generation: second
+    covalent: true
+    cns_activity: low_to_moderate
+    cns_modifier_score: -0.02
+    pubchem_cid: '11511120'
+    chembl_id: CHEMBL2105719
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_label_cns_nonclinical_or_context
+    fda_label_effective_time: '20251218'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;ChEMBL;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:11511120;CHEMBL2105719;4ab27d2f-e385-4e9c-b324-fa69c10b855a;openFDA
+      drug label;FDA label effective_time:20251218
+  osimertinib:
+    generation: third
+    covalent: true
+    cns_activity: high
+    cns_modifier_score: 0.1
+    pubchem_cid: '71496458'
+    chembl_id: CHEMBL3545063
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_clinical_cns
+    fda_label_effective_time: '20240925'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;ChEMBL;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:71496458;CHEMBL3545063;5e81b4a7-b971-45e1-9c31-29cea8c87ce7;openFDA
+      drug label;FDA label effective_time:20240925
+  lazertinib:
+    generation: third
+    covalent: true
+    cns_activity: high
+    cns_modifier_score: 0.08
+    pubchem_cid: '121269225'
+    chembl_id: null
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_clinical_cns
+    fda_label_effective_time: '20260505'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:121269225;c417f9ee-2027-4ed5-92ad-3c19266de16c;openFDA
+      drug label;FDA label effective_time:20260505
+  furmonertinib:
+    generation: third
+    covalent: true
+    cns_activity: high
+    cns_modifier_score: 0.1
+    pubchem_cid: '118861389'
+    chembl_id: CHEMBL6068476
+    openfda_label_found: false
+    fda_label_evidence_strength: label_missing
+    fda_label_effective_time: null
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    emerging_pacc_evidence_status: conference_slide_pdf_not_prior_locked
+    emerging_pacc_evidence_table: data/processed/reference/emerging_pacc_tki_evidence.csv
+    preclinical_pacc_evidence_table: data/processed/reference/furmonertinib_preclinical_pacc_evidence.csv
+    mechanism_note: FURTHER WCLC24 slide PDF supports 240 mg activity signal in
+      first-line EGFR PACC NSCLC; IASLC preclinical poster supports low-nM Ba/F3
+      activity across G719S/S768I/E709X/L861Q and brain exposure. Treat as
+      emerging enhanced evidence; do not overwrite frozen prior lock until
+      manuscript or mature peer-reviewed dataset is available.
+    source: manual_literature_seed;PubChem;ChEMBL;FDA_label_CNS_evidence;FURTHER_WCLC24;IASLC_preclinical_poster
+    source_url_or_id: 'manual_literature_curation_pending;PubChem CID:118861389;CHEMBL6068476;FDA
+      label effective_time:;local:data/raw/emerging_pacc_tki/furmonertinib_further_pacc_recent_cn.pdf;local:data/raw/emerging_pacc_tki/furmonertinib_preclinical_pacc_iaslc_poster.pdf'
+  aumolertinib:
+    generation: third
+    covalent: true
+    cns_activity: high
+    cns_modifier_score: 0.08
+    pubchem_cid: '121280087'
+    chembl_id: null
+    openfda_label_found: false
+    fda_label_evidence_strength: label_missing
+    fda_label_effective_time: null
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;FDA_label_CNS_evidence
+    source_url_or_id: 'manual_literature_curation_pending;PubChem CID:121280087;FDA
+      label effective_time:'
+  mobocertinib:
+    generation: ex20ins_tki
+    covalent: true
+    cns_activity: low
+    cns_modifier_score: -0.06
+    pubchem_cid: '118607832'
+    chembl_id: null
+    openfda_label_found: false
+    fda_label_evidence_strength: label_missing
+    fda_label_effective_time: null
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;FDA_label_CNS_evidence
+    source_url_or_id: 'manual_literature_curation_pending;PubChem CID:118607832;FDA
+      label effective_time:'
+  amivantamab:
+    generation: antibody
+    covalent: false
+    cns_activity: low
+    cns_modifier_score: -0.08
+    pubchem_cid: null
+    chembl_id: null
+    openfda_label_found: true
+    fda_label_evidence_strength: direct_clinical_cns
+    fda_label_effective_time: '20251111'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;DailyMed;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:;1466c070-9f97-4fa4-a955-6a6b59981fb8;openFDA
+      drug label;FDA label effective_time:20251111
+  patritumab deruxtecan:
+    generation: antibody_drug_conjugate
+    covalent: false
+    cns_activity: low
+    cns_modifier_score: -0.08
+    pubchem_cid: null
+    chembl_id: null
+    openfda_label_found: true
+    fda_label_evidence_strength: indirect_pk_only
+    fda_label_effective_time: '20260521'
+    availability_note: open fallback CNS modifier; review against local formulary
+      and labels
+    source: manual_literature_seed;PubChem;openFDA;FDA_label_CNS_evidence
+    source_url_or_id: manual_literature_curation_pending;PubChem CID:;openFDA drug
+      label;FDA label effective_time:20260521

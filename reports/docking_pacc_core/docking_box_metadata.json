@@ -1,0 +1,16 @@
+{
+  "template_pdb": "4LRM",
+  "chain": "A",
+  "box_reference_ligand": "YUN",
+  "box_center": [
+    49.297,
+    360.413,
+    31.953
+  ],
+  "box_size": [
+    24.0,
+    24.0,
+    24.0
+  ],
+  "note": "Search box centered on 4LRM chain A co-crystal ligand YUN."
+}

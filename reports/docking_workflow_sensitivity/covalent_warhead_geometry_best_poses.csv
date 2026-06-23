@@ -1,0 +1,13 @@
+variant_model,drug,pose_model,vina_score_kcal_mol,template_covalent_cys,cys_sg_to_acrylamide_beta_c_distance_A,sg_beta_alpha_angle_deg,geometry_penalty_lower_is_better,near_attack_pose,pose_pdbqt
+G719S,afatinib,5,-8.367,A:CYS800:SG,3.7590309921573843,68.51796530025219,1.0278436547659855,False,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\G719S__afatinib__vina_pose.pdbqt
+G719S,furmonertinib,8,-8.237,A:CYS800:SG,4.706721682870139,78.1902987410019,1.4446967054467172,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\G719S__furmonertinib__vina_pose.pdbqt
+G719S,osimertinib,8,-8.734,A:CYS800:SG,4.7694457749302375,80.7015268354084,1.430707698055527,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\G719S__osimertinib__vina_pose.pdbqt
+L861Q,afatinib,2,-8.913,A:CYS800:SG,3.7224587304629555,80.71875038631316,0.7323335895016779,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\L861Q__afatinib__vina_pose.pdbqt
+L861Q,furmonertinib,6,-8.94,A:CYS800:SG,3.790971511367482,65.6105013061566,1.1137476452192856,False,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\L861Q__furmonertinib__vina_pose.pdbqt
+L861Q,osimertinib,9,-8.066,A:CYS800:SG,4.162901151841091,94.74024776632504,0.7143730397535045,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\L861Q__osimertinib__vina_pose.pdbqt
+S768I,afatinib,8,-8.108,A:CYS800:SG,3.7923105094387637,82.8345145263865,0.731884461261698,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\S768I__afatinib__vina_pose.pdbqt
+S768I,furmonertinib,2,-9.569,A:CYS800:SG,4.018861654747498,81.72300666589102,0.907618732811865,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\S768I__furmonertinib__vina_pose.pdbqt
+S768I,osimertinib,8,-8.481,A:CYS800:SG,3.8208844525842407,96.85847989604818,0.4392900818106453,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\S768I__osimertinib__vina_pose.pdbqt
+WT,afatinib,3,-8.881,A:CYS800:SG,3.8094999671872856,80.8116575063711,0.7882964779832768,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\WT__afatinib__vina_pose.pdbqt
+WT,furmonertinib,7,-8.445,A:CYS800:SG,3.6574605944561998,73.28014447054811,0.8543038525141752,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\WT__furmonertinib__vina_pose.pdbqt
+WT,osimertinib,5,-8.999,A:CYS800:SG,4.328450069020071,74.67211277985862,1.2706975397943001,True,F:\egfr_pacc_digital_cell\reports\docking_pacc_core\poses\WT__osimertinib__vina_pose.pdbqt

@@ -1,0 +1,30 @@
+metadata:
+  note: DrugBank single-drug JSON exports require a free logged-in account. Bulk academic downloads were paused as of 2026-06-11.
+  raw_dir: data/raw/drugbank
+  processed_status: data/processed/drugbank_import_status.csv
+
+drugs:
+  afatinib:
+    drugbank_id: DB08916
+    expected_file: afatinib_DB08916.json
+    page_url: https://go.drugbank.com/drugs/DB08916
+    note: User-provided DB04854 is Febuxostat, not afatinib.
+  dacomitinib:
+    drugbank_id: DB11963
+    expected_file: dacomitinib_DB11963.json
+    page_url: https://go.drugbank.com/drugs/DB11963
+    note: User-provided DB11979 is Elagolix, not dacomitinib.
+  osimertinib:
+    drugbank_id: DB09330
+    expected_file: osimertinib_DB09330.json
+    page_url: https://go.drugbank.com/drugs/DB09330
+  furmonertinib:
+    drugbank_id: DB16087
+    expected_file: furmonertinib_DB16087.json
+    page_url: https://go.drugbank.com/drugs/DB16087
+    aliases:
+      - firmonertinib
+  almonertinib:
+    drugbank_id: DB16640
+    expected_file: almonertinib_DB16640.json
+    page_url: https://go.drugbank.com/drugs/DB16640

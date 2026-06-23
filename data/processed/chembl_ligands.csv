@@ -1,0 +1,5 @@
+drug,status,chembl_id,pref_name,first_approval,max_phase,canonical_smiles,sdf_path
+afatinib,downloaded,CHEMBL2105712,AFATINIB DIMALEATE,2013,4.0,CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]1CCOC1.O=C(O)/C=C\C(=O)O.O=C(O)/C=C\C(=O)O,/Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/afatinib_CHEMBL2105712.sdf
+dacomitinib,downloaded,CHEMBL2105719,DACOMITINIB,2018,4.0,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1.O,/Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/dacomitinib_CHEMBL2105719.sdf
+osimertinib,downloaded,CHEMBL3545063,OSIMERTINIB MESYLATE,2015,4.0,C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C.CS(=O)(=O)O,/Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/osimertinib_CHEMBL3545063.sdf
+furmonertinib,downloaded,CHEMBL6068476,FIRMONERTINIB MESYLATE,,1.0,C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OCC(F)(F)F)nc1N(C)CCN(C)C.CS(=O)(=O)O,/Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/furmonertinib_CHEMBL6068476.sdf

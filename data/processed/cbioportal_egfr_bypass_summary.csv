@@ -1,0 +1,5 @@
+egfr_mut_samples,met_amp_in_egfr_n,met_amp_in_egfr_rate,met_in_egfr_n,met_in_egfr_rate,pacc_like_samples,pik3ca_in_egfr_n,pik3ca_in_egfr_rate,rb1_in_egfr_n,rb1_in_egfr_rate,status,study_id,tp53_in_egfr_n,tp53_in_egfr_rate
+33,1,0.0303,1,0.0303,4,1,0.0303,3,0.0909,downloaded,luad_tcga_pub,20,0.6061
+65,1,0.0154,0,0.0,6,4,0.0615,7,0.1077,downloaded,luad_tcga_pan_can_atlas_2018,43,0.6615
+7,0,0.0,0,0.0,0,1,0.1429,1,0.1429,downloaded,lusc_tcga_pub,6,0.8571
+14,0,0.0,0,0.0,0,1,0.0714,1,0.0714,downloaded,lusc_tcga_pan_can_atlas_2018,13,0.9286

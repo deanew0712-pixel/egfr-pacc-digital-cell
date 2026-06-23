@@ -1,0 +1,13 @@
+COLAB_GPU_MD_RELAXED_RUNBOOK_CN.md
+colab_egfr_pacc_md_input.zip
+colab_egfr_pacc_md_relaxed_runner.ipynb
+colab_input\docking_box_metadata.json
+colab_input\docking_scores.csv
+colab_input\ligands\afatinib.pdbqt
+colab_input\ligands\furmonertinib.pdbqt
+colab_input\ligands\osimertinib.pdbqt
+colab_input\receptors\EGFR_4LRM_chainA_G719S.pdb
+colab_input\receptors\EGFR_4LRM_chainA_L861Q.pdb
+colab_input\receptors\EGFR_4LRM_chainA_S768I.pdb
+colab_input\receptors\EGFR_4LRM_chainA_WT.pdb
+colab_md_relaxed_egfr_pacc.py

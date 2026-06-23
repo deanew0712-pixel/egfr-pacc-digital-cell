@@ -1,0 +1,13 @@
+subgroup_type,subgroup,method,n_folds,mean_target_rank,top1_hit_rate,delta_mean_rank_vs_baseline_0,delta_top1_vs_baseline_0
+class_group,PACC,baseline_0,25,1.72,0.64,0.0,0.0
+class_group,PACC,baseline_1,25,1.96,0.64,0.24,0.0
+class_group,PACC,model,25,2.0,0.64,0.28,0.0
+class_group,non_PACC,baseline_0,4,1.75,0.25,0.0,0.0
+class_group,non_PACC,baseline_1,4,1.75,0.25,0.0,0.0
+class_group,non_PACC,model,4,4.0,0.25,2.25,0.0
+compound_group,compound_or_group,baseline_0,14,1.7142857142857142,0.6428571428571429,0.0,0.0
+compound_group,compound_or_group,baseline_1,14,2.142857142857143,0.6428571428571429,0.4285714285714286,0.0
+compound_group,compound_or_group,model,14,2.2142857142857144,0.6428571428571429,0.5000000000000002,0.0
+compound_group,single_or_specific,baseline_0,15,1.7333333333333334,0.5333333333333333,0.0,0.0
+compound_group,single_or_specific,baseline_1,15,1.7333333333333334,0.5333333333333333,0.0,0.0
+compound_group,single_or_specific,model,15,2.3333333333333335,0.5333333333333333,0.6000000000000001,0.0

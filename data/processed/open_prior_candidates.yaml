@@ -1,0 +1,101 @@
+metadata:
+  status: open_source_candidate_not_frozen
+  warning: Do not copy directly into configs/priors.yaml until OncoKB and locked literature
+    ORR/PFS table are added.
+  generated_from:
+  - data/processed/civic_egfr_evidence.csv
+  - data/processed/cbioportal_egfr_bypass_summary.csv
+  - data/processed/chembl_ligands.csv
+  - data/processed/pdb_structures.csv
+module_a_variant_evidence_counts:
+  C797S:
+    osimertinib: 1
+  G719A:
+    erlotinib: 1
+    gefitinib: 2
+  G719D:
+    erlotinib: 1
+    gefitinib: 1
+  G719S:
+    erlotinib: 2
+    gefitinib: 2
+  L747P:
+    erlotinib: 1
+    gefitinib: 1
+  L858R:
+    afatinib: 6
+    canertinib: 1
+    cetuximab: 1
+    crizotinib: 1
+    dacomitinib: 2
+    erlotinib: 11
+    gefitinib: 8
+    lapatinib: 1
+    neratinib: 1
+    osimertinib: 1
+  L861Q:
+    gefitinib: 1
+  S768I:
+    erlotinib: 3
+    gefitinib: 1
+  T790M:
+    afatinib: 3
+    canertinib: 1
+    dacomitinib: 2
+    erlotinib: 5
+    gefitinib: 6
+    lapatinib: 1
+    multikinase inhibitor aee788: 1
+    neratinib: 1
+    osimertinib: 7
+    pemetrexed: 1
+    rociletinib: 3
+    staurosporine: 1
+bypass_modifier_candidates_luad_egfr_mutant:
+  denominator_n: 98
+  tp53_mut_rate: 0.6429
+  pik3ca_mut_rate: 0.051
+  met_mut_rate: 0.0102
+  met_amp_rate: 0.0204
+  rb1_mut_rate: 0.102
+  interpretation: Use as broad LUAD EGFR-mutant background. GENIE can enhance global
+    PACC-specific priors but is optional.
+module_c_assets:
+  pdb_templates:
+  - pdb_id: 2ITX
+    status: downloaded
+    path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/pdb/2ITX.cif
+    bytes: 320448
+  - pdb_id: 4LRM
+    status: downloaded
+    path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/pdb/4LRM.cif
+    bytes: 2272740
+  - pdb_id: 4LRJ
+    status: downloaded
+    path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/pdb/4LRJ.cif
+    bytes: 627165
+  - pdb_id: 6JX0
+    status: downloaded
+    path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/pdb/6JX0.cif
+    bytes: 324463
+  - pdb_id: 7T67
+    status: downloaded
+    path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/pdb/7T67.cif
+    bytes: 2606608
+  chembl_ligands:
+  - drug: afatinib
+    chembl_id: CHEMBL2105712
+    pref_name: AFATINIB DIMALEATE
+    sdf_path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/afatinib_CHEMBL2105712.sdf
+  - drug: dacomitinib
+    chembl_id: CHEMBL2105719
+    pref_name: DACOMITINIB
+    sdf_path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/dacomitinib_CHEMBL2105719.sdf
+  - drug: osimertinib
+    chembl_id: CHEMBL3545063
+    pref_name: OSIMERTINIB MESYLATE
+    sdf_path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/osimertinib_CHEMBL3545063.sdf
+  - drug: furmonertinib
+    chembl_id: CHEMBL6068476
+    pref_name: FIRMONERTINIB MESYLATE
+    sdf_path: /Volumes/deaneu01/egfr_pacc_digital_cell/data/raw/chembl/furmonertinib_CHEMBL6068476.sdf

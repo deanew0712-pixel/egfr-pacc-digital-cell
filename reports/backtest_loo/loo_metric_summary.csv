@@ -1,0 +1,4 @@
+method,n_total_locked_rows,n_orr_evaluable_folds,candidate_drug_count,pooled_drug_auc,delta_auc_vs_baseline_0,delta_auc_vs_baseline_1,top1_hit_rate,mean_target_rank,metric_definition
+model,34,29,12,0.8786617662955356,0.07534320613987677,0.01843043995243754,0.5862068965517241,2.2758620689655173,Pooled one-positive-per-fold ROC AUC over candidate drugs; positive label is the held-out drug class/member.
+baseline_0,34,29,12,0.8033185601556588,0.0,-0.056912766187439234,0.5862068965517241,1.7241379310344827,Pooled one-positive-per-fold ROC AUC over candidate drugs; positive label is the held-out drug class/member.
+baseline_1,34,29,12,0.8602313263430981,0.056912766187439234,0.0,0.5862068965517241,1.9310344827586208,Pooled one-positive-per-fold ROC AUC over candidate drugs; positive label is the held-out drug class/member.

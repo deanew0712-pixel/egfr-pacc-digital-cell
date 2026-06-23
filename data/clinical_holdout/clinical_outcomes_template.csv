@@ -1,0 +1,3 @@
+patient_id,best_response,pfs_months,pfs_event,os_months,os_event
+P001,PR,12.4,true,24.0,false
+
